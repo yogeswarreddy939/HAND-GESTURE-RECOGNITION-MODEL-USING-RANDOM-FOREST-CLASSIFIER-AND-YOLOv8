@@ -1,5 +1,24 @@
 # HAND-GESTURE-RECOGNITION-MODEL-USING-RANDOM-FOREST-CLASSIFIER-AND-YOLOv8
 
+Summary
 Hand gesture recognition represents a crucial domain within computer vision, offering significant utility across a spectrum of applications such as sign language translation, virtual and augmented reality, touchless interfaces, robotics, and gaming. However, building a system that is both accurate and efficient in real-time scenarios remains a challenging task due to variations of the lighting conditions, complex backgrounds, and differences in hand shapes and orientations. In thiswork, a hybrid hand gesture recognition system that leverages the strengths of both deep learning and the classical machine learning methodologies. Specifically, we employ YOLOv8, a state of art object detection model, for real time and accurate hand localization. This deep learning based detector effectively isolates hand regions from the input frames, allowing for robust performance even in cluttered or dynamic environments. Once the hand is detected, we extract the region of interest and preprocess it to derive relevant features. These features are then fed into a Random Forest classifier, a lightweight and interpretable machine learning algorithm, to perform gesture classification. The Random Forest enables efficient training and inference, making the overall system suitable for real-time applications on devices with limited computational resources. The modular design of the system also facilitates adaptability to various use cases, such as sign language recognition, smart home control, and gesture-based authentication through video sequence modeling and deploying the system on edge devices using optimization techniques like 
 model quantization and pruning. 
+
+Features
+- Real-time hand detection
+- Gesture classification
+- 14 gesture classes
+- Custom dataset
+- High accuracy detection
+
+Technologies Used
+- Python
+- OpenCV
+- YOLOv8
+- Scikit-learn
+- NumPy
+- Pandas
+
+Reslts
 <img width="897" height="412" alt="Screenshot 2025-06-05 104431" src="https://github.com/user-attachments/assets/3169597d-304e-4921-8cae-22e3469007d3" />
+

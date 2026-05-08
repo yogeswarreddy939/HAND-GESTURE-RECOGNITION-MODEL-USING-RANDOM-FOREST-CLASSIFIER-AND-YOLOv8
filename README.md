@@ -19,6 +19,6 @@ Technologies Used
 - NumPy
 - Pandas
 
-Reslts
+Results
 <img width="897" height="412" alt="Screenshot 2025-06-05 104431" src="https://github.com/user-attachments/assets/3169597d-304e-4921-8cae-22e3469007d3" />
 
